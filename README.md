@@ -1,4 +1,4 @@
-# Swapping-two-values
+(# Swapping-two-values
 ## AIM:
 To write a python program for swapping of two values
 ## EQUIPEMENT'S REQUIRED: 
@@ -18,11 +18,16 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
+import numpy as np
+A=[[1, -3],[3,1]]
+B=np.array([0, 10])
+C=np.linalg.solve(A, B)
+print(C)
 
 
 ## RESULT:
-Thus the swapping of two values are successfully executed
+![Screenshot (127)](https://github.com/user-attachments/assets/6434adcb-7fc8-492f-8738-23fbfdba7cf0)
+
 
 
 
